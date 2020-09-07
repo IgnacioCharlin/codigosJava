@@ -1,0 +1,38 @@
+package turnoNoche;
+
+public class Alumno {
+    private String Nombre;
+    private double[]parciales;
+
+    public Alumno(String nombre) {
+        this.Nombre=nombre;
+        parciales= new double[10];
+    }
+
+    public void rendir(int numeroDeParcial,double nota) {
+
+
+        parciales[numeroDeParcial]=nota;
+
+    }
+    public double[] getParciales() {
+        return parciales;
+    }
+
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+
+    public void setNombre(String nombre) {
+        Nombre = nombre;
+    }
+    
+    public boolean promociono() {
+        if(calcularElPromedioDelParcial()>=7.0) {
+            return true;
+        }return false;
+    }
+}
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.FdLibm.Pow"/>
+    <fullyQualifiedTypeName name="ar.edu.unlam.tp8.ElDiaEs"/>
+    <fullyQualifiedTypeName name="sun.java2d.DefaultDisposerRecord"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="ar.edu.unlam.tp8.diasDeLaSemana"/>
+    <fullyQualifiedTypeName name="ar.edu.unlam.pb1.ea3.Jugador"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ar.edu.unlam.tp11.Restaurant"/>
+    <fullyQualifiedTypeName name="ar.edu.unlam.ejercitacion.funcionDeCine"/>
+    <fullyQualifiedTypeName name="ar.edu.unlam.ejercitacion.Pelicula"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.NodeView.Default"/>
+    <fullyQualifiedTypeName name="ar.edu.unlam.ejercitacion.Espectador"/>
+    <fullyQualifiedTypeName name="com.sun.crypto.provider.DESCipher"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+</qualifiedTypeNameHistroy>

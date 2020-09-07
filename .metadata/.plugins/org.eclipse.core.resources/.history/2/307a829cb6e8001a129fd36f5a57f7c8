@@ -1,0 +1,84 @@
+package Prueba;
+	
+public class Empresa {
+	private String nombre;
+	private Producto producto[];
+	public Empresa(String nombre) {
+		this.nombre = nombre;
+		producto = new Producto[10];
+		/*
+		 * 
+		 * Costructor de la clase.
+		 */
+		
+
+	}
+	
+	public String getNombre() {
+		/*
+		 * Devuelve el nombre de la empresa.
+		 */
+		return nombre;
+
+	}
+	
+	public void agregarProducto(Producto nuevo) {
+		/*
+		 * Agrega un producto al catalogo
+		 */
+		for (int i = 0; i < producto.length; i++) {
+			if(producto[i]!=null) {
+				producto[i]=nuevo;
+			}
+		}
+	}
+	
+	public void realizarVenta(Venta nueva) {
+		/*
+		 * Registra una venta
+		 */
+		for (int i = 0; i < producto.length; i++) {
+			if(producto[i]!= null) {
+				
+			}
+		}
+
+	}
+	
+	public Producto getProductoPorNombre(String nombreDelProducto) {
+		/*
+		 * Busca y devuelve un producto basado en su nombre
+		 */
+		for (int i = 0; i < producto.length; i++) {
+			if(producto[i].getDescripcion().equals(nombreDelProducto)) {
+				return producto[i];
+			}
+		}
+
+
+	}
+	
+	public double getImportePromedioDeVentas() {
+		/*
+		 * Busca y devuelve un producto basado en su nombre
+		 */
+
+
+	}
+	
+	public void ordenarLosProductosPorCodigo() {
+		/*
+		 * Ordena el catalogo de productos por codigo
+		 */
+
+
+	}
+	
+	public String toString() {
+		/*
+		 * Devuelve un listado con el catalogo de productos 
+		 */
+
+
+	}
+}

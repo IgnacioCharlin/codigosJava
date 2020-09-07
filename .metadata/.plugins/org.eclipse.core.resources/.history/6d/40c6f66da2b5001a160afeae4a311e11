@@ -1,0 +1,17 @@
+package ar.edu.unlam.ejercitacion;
+import java.util.Scanner;
+public class MayorMenor {
+
+	public static void main(String[] args) {
+		int vector [] = {3,11,33,9,15, 8, 22, 44,5,18};
+		int numeroMayor = vector[0];
+		for (int i = 0; i < vector.length; i++) {
+			if(vector[i] > numeroMayor) {
+				numeroMayor = vector[i];
+			}
+		}
+		System.out.println(numeroMayor);
+
+	}
+
+}

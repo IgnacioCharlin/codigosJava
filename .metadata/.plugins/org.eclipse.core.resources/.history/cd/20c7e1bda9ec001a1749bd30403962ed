@@ -1,0 +1,17 @@
+package ar.edu.unlam;
+import java.util.Scanner;
+public class Disco {
+	public static void main(String[] args) {
+		/*crear una clase que permita modelar un Disco. Se desea conocer: • radio interior. • radio exterior. • perímetro interior. • perímetro exterior. • superficie. Debe tener operaciones para cambiar el radio interior y el radio exterior.
+		 * */
+		Scanner teclado = new Scanner (System.in);
+		int radioInterior , radioExterior;
+		System.out.print("Ingrese radio interior");
+		radioInterior = teclado.nextInt();
+		System.out.print("Ingrese radio exterior");
+		radioExterior = teclado.nextInt();
+		
+		double perimetroInterior = (2*Math.PI * radioInterior);
+		double superficie = Math.PI * (Math.pow(radioInterior, 2))
+	}
+}

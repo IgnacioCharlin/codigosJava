@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PruebaRestaurant.java&apos; to &apos;EjercitacionesEnClase/src/ar.edu.unlam.ejercitacion.RestaurantPB1.src.ar.edu.unlam.restourant&apos;&#x0D;&#x0A;- Original project: &apos;pasar&apos;&#x0D;&#x0A;- Destination element: &apos;EjercitacionesEnClase/src/ar.edu.unlam.ejercitacion.RestaurantPB1.src.ar.edu.unlam.restourant&apos;&#x0D;&#x0A;- Original element: &apos;PruebaRestaurant.java&apos;" description="Copy compilation unit" destination="=EjercitacionesEnClase/src&lt;ar.edu.unlam.ejercitacion.RestaurantPB1.src.ar.edu.unlam.restourant" element1="/src&lt;{PruebaRestaurant.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1598562576938" units="1" version="1.0"/>
+</session>
